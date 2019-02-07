@@ -5,7 +5,7 @@ class Kineticinit(MycroftSkill):
     def __init__(self):
         MycroftSkill.__init__(self)
 
-        subprocess.call('roscore')      
+        subprocess.call(['roscore'])      
     @intent_file_handler('kineticinit.intent')
     def handle_kineticinit(self, message):
         self.speak_dialog('kineticinit')
