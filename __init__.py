@@ -9,7 +9,7 @@ class Kineticinit(MycroftSkill):
     def handle_kineticinit(self, message):
         self.speak_dialog('kineticinit')
 
-subprocess.call(["roscore"])
+    subprocess.call(["roscore"])
 
 def create_skill():
     return Kineticinit()
