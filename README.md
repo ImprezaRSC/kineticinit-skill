@@ -6,7 +6,9 @@ This command passes 'roscore' to the command line, nested into a subprocess.call
 
 ## Examples
  - "Kinetic"
- - "Start kinetic"
+ - "Start Kinetic"
+ - "Melodic"
+ - "Start Melodic"
  - "Ross Core"
 
 
